@@ -4,3 +4,5 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+itertools = { workspace = true }
+good_lp = { version = "1.8", default-features = false, features = ["highs"] }
